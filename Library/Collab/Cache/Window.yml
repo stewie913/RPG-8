@@ -1,0 +1,1262 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffe70aba2e7074048aca5de573b64a59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SimpleSelectedItems:
+    m_Keys:
+    - .collabignore
+    - Assets/2.5 cutscene.unity
+    - Assets/2.5 cutscene.unity.meta
+    - Assets/2.6Start_Map.unity
+    - Assets/2.6Start_Map.unity.meta
+    - Assets/Graphics.meta
+    - Assets/Graphics/Ammo.meta
+    - Assets/Graphics/Ammo/Bullet.prefab
+    - Assets/Graphics/Ammo/Bullet.prefab.meta
+    - Assets/Graphics/Animation(Trash).meta
+    - Assets/Graphics/Animation(Trash)/PlayerCharacter.meta
+    - Assets/Graphics/Animation(Trash)/PlayerCharacter/Idle.meta
+    - Assets/Graphics/Animation(Trash)/PlayerCharacter/Idle/Idle Front.meta
+    - Assets/Graphics/Animation(Trash)/PlayerCharacter/Idle/Idle Front/Materials.meta
+    - Assets/Graphics/Animation(Trash)/PlayerCharacter/Idle/Idle Front/Materials/hero-idle-front.mat
+    - Assets/Graphics/Animation(Trash)/PlayerCharacter/Idle/Idle Front/Materials/hero-idle-front.mat.meta
+    - Assets/Graphics/Animation(Trash)/PlayerCharacter/Walking/Walk Left.prefab
+    - Assets/Graphics/Animation(Trash)/PlayerCharacter/Walking/Walk Left.prefab.meta
+    - Assets/Graphics/Animation(Trash)/PlayerCharacter/Walking/WalkDown.prefab
+    - Assets/Graphics/Animation(Trash)/PlayerCharacter/Walking/WalkDown.prefab.meta
+    - Assets/Graphics/Animation(Trash)/PlayerCharacter/Walking/WalkRight.prefab
+    - Assets/Graphics/Animation(Trash)/PlayerCharacter/Walking/WalkRight.prefab.meta
+    - Assets/Graphics/Animation(Trash)/PlayerCharacter/Walking/WalkUp.prefab
+    - Assets/Graphics/Animation(Trash)/PlayerCharacter/Walking/WalkUp.prefab.meta
+    - Assets/Graphics/Animations.meta
+    - Assets/Graphics/Animations/Mole.meta
+    - Assets/Graphics/Animations/Mole/FriendlyMole.controller
+    - Assets/Graphics/Animations/Mole/FriendlyMole.controller.meta
+    - Assets/Graphics/Animations/Mole/Idle.meta
+    - Assets/Graphics/Animations/Mole/Idle/mole-idle-back.png
+    - Assets/Graphics/Animations/Mole/Idle/mole-idle-back.png.meta
+    - Assets/Graphics/Animations/Mole/Idle/mole-idle-front.png
+    - Assets/Graphics/Animations/Mole/Idle/mole-idle-front.png.meta
+    - Assets/Graphics/Animations/Mole/Idle/mole-idle-side.png
+    - Assets/Graphics/Animations/Mole/Idle/mole-idle-side.png.meta
+    - Assets/Graphics/Animations/Mole/Idle/mole_idle_Right.anim
+    - Assets/Graphics/Animations/Mole/Idle/mole_idle_Right.anim.meta
+    - Assets/Graphics/Animations/Mole/Idle/mole_idle_back.anim
+    - Assets/Graphics/Animations/Mole/Idle/mole_idle_back.anim.meta
+    - Assets/Graphics/Animations/Mole/Idle/mole_idle_front.anim
+    - Assets/Graphics/Animations/Mole/Idle/mole_idle_front.anim.meta
+    - Assets/Graphics/Animations/Mole/Mole_Walk_Down.anim
+    - Assets/Graphics/Animations/Mole/Mole_Walk_Down.anim.meta
+    - Assets/Graphics/Animations/Mole/Mole_Walk_Left.anim
+    - Assets/Graphics/Animations/Mole/Mole_Walk_Left.anim.meta
+    - Assets/Graphics/Animations/Mole/Mole_Walk_Right.anim
+    - Assets/Graphics/Animations/Mole/Mole_Walk_Right.anim.meta
+    - Assets/Graphics/Animations/Mole/Mole_Walk_Up.anim
+    - Assets/Graphics/Animations/Mole/Mole_Walk_Up.anim.meta
+    - Assets/Graphics/Animations/Player.meta
+    - Assets/Graphics/Animations/Player/AC_Player.controller
+    - Assets/Graphics/Animations/Player/AC_Player.controller.meta
+    - Assets/Graphics/Animations/Player/Attack.meta
+    - Assets/Graphics/Animations/Player/Attack/Hero_attack_back.anim
+    - Assets/Graphics/Animations/Player/Attack/Hero_attack_back.anim.meta
+    - Assets/Graphics/Animations/Player/Attack/Hero_attack_front.anim
+    - Assets/Graphics/Animations/Player/Attack/Hero_attack_front.anim.meta
+    - Assets/Graphics/Animations/Player/Idle.meta
+    - Assets/Graphics/Animations/Player/Idle/Anim.meta
+    - Assets/Graphics/Animations/Player/Idle/Anim/DONT DROP ON TILEMAPS.meta
+    - Assets/Graphics/Animations/Player/Idle/Anim/Idle_left.anim
+    - Assets/Graphics/Animations/Player/Idle/Anim/Idle_left.anim.meta
+    - Assets/Graphics/Animations/Player/Idle/Anim/Idle_right.anim
+    - Assets/Graphics/Animations/Player/Idle/Anim/Idle_right.anim.meta
+    - Assets/Graphics/Animations/Player/Idle/Anim/Idle_up.anim
+    - Assets/Graphics/Animations/Player/Idle/Anim/Idle_up.anim.meta
+    - Assets/Graphics/Animations/Player/Idle/Anim/Player(hero).controller
+    - Assets/Graphics/Animations/Player/Idle/Anim/Player(hero).controller.meta
+    - Assets/Graphics/Animations/Player/Idle/Anim/hero-idle-front.controller
+    - Assets/Graphics/Animations/Player/Idle/Anim/hero-idle-front.controller.meta
+    - Assets/Graphics/Animations/Player/Idle/Anim/idle_down.anim
+    - Assets/Graphics/Animations/Player/Idle/Anim/idle_down.anim.meta
+    - Assets/Graphics/Animations/Player/Idle/Pics.meta
+    - Assets/Graphics/Animations/Player/Idle/Pics/Hero-Idle-Right.png
+    - Assets/Graphics/Animations/Player/Idle/Pics/Hero-Idle-Right.png.meta
+    - Assets/Graphics/Animations/Player/Idle/Pics/Materials.meta
+    - Assets/Graphics/Animations/Player/Idle/Pics/Materials/hero-idle-side.mat
+    - Assets/Graphics/Animations/Player/Idle/Pics/Materials/hero-idle-side.mat.meta
+    - Assets/Graphics/Animations/Player/Idle/Pics/hero-idle-back.png
+    - Assets/Graphics/Animations/Player/Idle/Pics/hero-idle-back.png.meta
+    - Assets/Graphics/Animations/Player/Idle/Pics/hero-idle-front.png
+    - Assets/Graphics/Animations/Player/Idle/Pics/hero-idle-front.png.meta
+    - Assets/Graphics/Animations/Player/Idle/Pics/hero-idle-left.png
+    - Assets/Graphics/Animations/Player/Idle/Pics/hero-idle-left.png.meta
+    - Assets/Graphics/Animations/Player/Idle/Pics/hero-idle-side.png
+    - Assets/Graphics/Animations/Player/Idle/Pics/hero-idle-side.png.meta
+    - Assets/Graphics/Animations/Player/Main Camera.controller
+    - Assets/Graphics/Animations/Player/Main Camera.controller.meta
+    - Assets/Graphics/Animations/Player/Player(hero).prefab
+    - Assets/Graphics/Animations/Player/Player(hero).prefab.meta
+    - Assets/Graphics/Animations/Player/Walk_Right.anim
+    - Assets/Graphics/Animations/Player/Walk_Right.anim.meta
+    - Assets/Graphics/Animations/Player/Walk_down.anim
+    - Assets/Graphics/Animations/Player/Walk_down.anim.meta
+    - Assets/Graphics/Animations/Player/Walk_up.anim
+    - Assets/Graphics/Animations/Player/Walk_up.anim.meta
+    - Assets/Graphics/Animations/Player/Walking.meta
+    - Assets/Graphics/Animations/Player/Walking/hero-walk-front-1.png
+    - Assets/Graphics/Animations/Player/Walking/hero-walk-front-1.png.meta
+    - Assets/Graphics/Animations/Player/Walking/hero-walk-front-2.png
+    - Assets/Graphics/Animations/Player/Walking/hero-walk-front-2.png.meta
+    - Assets/Graphics/Animations/Player/Walking/hero-walk-front-3.png
+    - Assets/Graphics/Animations/Player/Walking/hero-walk-front-3.png.meta
+    - Assets/Graphics/Animations/Player/Walking/hero-walk-front-4.png
+    - Assets/Graphics/Animations/Player/Walking/hero-walk-front-4.png.meta
+    - Assets/Graphics/Animations/Player/Walking/hero-walk-front-5.png
+    - Assets/Graphics/Animations/Player/Walking/hero-walk-front-5.png.meta
+    - Assets/Graphics/Animations/Player/Walking/hero-walk-front-6.png
+    - Assets/Graphics/Animations/Player/Walking/hero-walk-front-6.png.meta
+    - Assets/Graphics/Tiles.meta
+    - Assets/Graphics/Tiles/Ground Tiles.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_0.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_0.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_1.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_1.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_10.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_10.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_100.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_100.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_101.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_101.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_102.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_102.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_103.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_103.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_104.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_104.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_105.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_105.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_106.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_106.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_107.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_107.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_108.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_108.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_109.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_109.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_11.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_11.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_110.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_110.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_111.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_111.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_112.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_112.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_113.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_113.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_114.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_114.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_115.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_115.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_116.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_116.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_117.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_117.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_118.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_118.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_119.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_119.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_12.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_12.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_120.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_120.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_121.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_121.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_122.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_122.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_123.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_123.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_124.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_124.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_125.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_125.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_126.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_126.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_127.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_127.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_128.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_128.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_129.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_129.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_13.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_13.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_130.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_130.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_131.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_131.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_132.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_132.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_133.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_133.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_134.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_134.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_135.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_135.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_136.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_136.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_137.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_137.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_138.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_138.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_139.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_139.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_14.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_14.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_140.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_140.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_141.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_141.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_142.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_142.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_143.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_143.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_144.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_144.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_145.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_145.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_146.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_146.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_147.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_147.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_148.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_148.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_149.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_149.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_15.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_15.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_150.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_150.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_151.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_151.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_152.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_152.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_153.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_153.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_154.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_154.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_155.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_155.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_156.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_156.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_157.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_157.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_158.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_158.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_159.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_159.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_16.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_16.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_160.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_160.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_161.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_161.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_162.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_162.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_163.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_163.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_164.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_164.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_165.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_165.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_166.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_166.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_167.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_167.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_168.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_168.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_169.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_169.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_17.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_17.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_170.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_170.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_171.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_171.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_172.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_172.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_173.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_173.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_174.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_174.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_175.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_175.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_176.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_176.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_177.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_177.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_178.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_178.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_179.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_179.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_18.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_18.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_180.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_180.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_181.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_181.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_182.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_182.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_183.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_183.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_184.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_184.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_185.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_185.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_186.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_186.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_187.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_187.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_188.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_188.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_189.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_189.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_19.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_19.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_190.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_190.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_191.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_191.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_192.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_192.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_193.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_193.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_194.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_194.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_195.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_195.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_196.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_196.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_197.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_197.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_198.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_198.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_199.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_199.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_2.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_2.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_20.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_20.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_200.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_200.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_201.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_201.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_202.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_202.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_203.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_203.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_204.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_204.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_205.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_205.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_206.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_206.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_207.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_207.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_208.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_208.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_209.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_209.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_21.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_21.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_210.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_210.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_211.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_211.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_212.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_212.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_213.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_213.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_214.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_214.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_215.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_215.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_216.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_216.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_217.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_217.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_218.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_218.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_219.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_219.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_22.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_22.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_220.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_220.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_221.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_221.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_222.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_222.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_223.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_223.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_224.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_224.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_225.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_225.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_226.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_226.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_227.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_227.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_228.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_228.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_229.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_229.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_23.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_23.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_230.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_230.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_231.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_231.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_232.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_232.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_233.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_233.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_234.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_234.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_235.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_235.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_236.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_236.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_237.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_237.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_238.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_238.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_239.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_239.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_24.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_24.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_240.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_240.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_241.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_241.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_242.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_242.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_243.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_243.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_244.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_244.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_245.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_245.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_246.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_246.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_247.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_247.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_248.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_248.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_249.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_249.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_25.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_25.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_250.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_250.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_251.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_251.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_252.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_252.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_253.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_253.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_254.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_254.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_255.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_255.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_256.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_256.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_257.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_257.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_258.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_258.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_259.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_259.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_26.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_26.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_260.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_260.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_261.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_261.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_262.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_262.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_263.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_263.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_264.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_264.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_265.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_265.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_266.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_266.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_267.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_267.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_268.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_268.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_269.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_269.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_27.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_27.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_270.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_270.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_271.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_271.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_272.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_272.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_273.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_273.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_274.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_274.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_275.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_275.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_276.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_276.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_277.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_277.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_278.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_278.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_279.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_279.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_28.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_28.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_280.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_280.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_281.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_281.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_282.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_282.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_283.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_283.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_284.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_284.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_285.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_285.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_286.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_286.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_287.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_287.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_288.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_288.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_289.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_289.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_29.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_29.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_290.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_290.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_291.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_291.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_292.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_292.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_293.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_293.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_294.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_294.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_295.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_295.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_296.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_296.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_297.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_297.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_298.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_298.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_299.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_299.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_3.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_3.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_30.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_30.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_300.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_300.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_301.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_301.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_302.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_302.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_303.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_303.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_304.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_304.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_305.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_305.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_306.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_306.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_307.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_307.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_308.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_308.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_309.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_309.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_31.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_31.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_310.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_310.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_311.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_311.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_312.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_312.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_313.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_313.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_314.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_314.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_315.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_315.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_316.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_316.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_317.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_317.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_318.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_318.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_319.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_319.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_32.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_32.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_320.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_320.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_321.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_321.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_322.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_322.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_323.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_323.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_324.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_324.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_325.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_325.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_326.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_326.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_327.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_327.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_328.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_328.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_329.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_329.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_33.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_33.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_330.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_330.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_331.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_331.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_332.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_332.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_333.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_333.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_334.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_334.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_335.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_335.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_336.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_336.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_337.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_337.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_338.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_338.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_339.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_339.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_34.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_34.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_340.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_340.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_341.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_341.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_342.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_342.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_343.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_343.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_344.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_344.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_345.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_345.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_346.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_346.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_347.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_347.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_348.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_348.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_349.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_349.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_35.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_35.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_350.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_350.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_351.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_351.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_352.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_352.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_353.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_353.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_354.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_354.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_355.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_355.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_356.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_356.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_357.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_357.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_358.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_358.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_359.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_359.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_36.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_36.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_360.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_360.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_361.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_361.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_362.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_362.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_363.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_363.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_364.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_364.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_365.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_365.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_366.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_366.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_367.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_367.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_368.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_368.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_369.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_369.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_37.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_37.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_370.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_370.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_371.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_371.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_372.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_372.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_373.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_373.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_374.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_374.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_375.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_375.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_376.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_376.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_377.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_377.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_378.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_378.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_379.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_379.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_38.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_38.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_380.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_380.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_381.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_381.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_382.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_382.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_383.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_383.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_384.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_384.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_385.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_385.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_386.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_386.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_387.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_387.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_388.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_388.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_389.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_389.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_39.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_39.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_390.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_390.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_391.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_391.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_392.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_392.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_393.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_393.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_394.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_394.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_395.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_395.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_396.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_396.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_397.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_397.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_398.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_398.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_399.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_399.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_4.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_4.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_40.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_40.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_41.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_41.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_42.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_42.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_43.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_43.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_44.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_44.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_45.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_45.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_46.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_46.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_47.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_47.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_48.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_48.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_49.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_49.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_5.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_5.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_50.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_50.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_51.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_51.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_52.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_52.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_53.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_53.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_54.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_54.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_55.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_55.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_56.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_56.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_57.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_57.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_58.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_58.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_59.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_59.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_6.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_6.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_60.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_60.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_61.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_61.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_62.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_62.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_63.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_63.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_64.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_64.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_65.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_65.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_66.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_66.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_67.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_67.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_68.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_68.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_69.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_69.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_7.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_7.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_70.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_70.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_71.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_71.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_72.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_72.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_73.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_73.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_74.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_74.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_75.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_75.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_76.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_76.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_77.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_77.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_78.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_78.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_79.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_79.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_8.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_8.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_80.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_80.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_81.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_81.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_82.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_82.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_83.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_83.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_84.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_84.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_85.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_85.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_86.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_86.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_87.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_87.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_88.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_88.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_89.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_89.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_9.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_9.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_90.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_90.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_91.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_91.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_92.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_92.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_93.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_93.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_94.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_94.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_95.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_95.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_96.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_96.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_97.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_97.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_98.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_98.asset.meta
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_99.asset
+    - Assets/Graphics/Tiles/Ground Tiles/tileset-sliced_99.asset.meta
+    - Assets/Graphics/deathstoneofZombie.png
+    - Assets/Graphics/deathstoneofZombie.png.meta
+    - Assets/Old Versions.meta
+    - Assets/Old Versions/1.0.meta
+    - Assets/Old Versions/1.0/BasicMovementAnimations.unity
+    - Assets/Old Versions/1.0/BasicMovementAnimations.unity.meta
+    - Assets/Old Versions/1.0/MapAndBounds.unity
+    - Assets/Old Versions/1.0/MapAndBounds.unity.meta
+    - Assets/Palettes.meta
+    - Assets/Palettes/Ground Tiles.prefab
+    - Assets/Palettes/Ground Tiles.prefab.meta
+    - Assets/Parents.meta
+    - Assets/Parents/Square 1.prefab
+    - Assets/Parents/Square 1.prefab.meta
+    - Assets/Parents/Square.prefab
+    - Assets/Parents/Square.prefab.meta
+    - Assets/Scenes.meta
+    - Assets/Scenes/2.5_Start.unity
+    - Assets/Scenes/2.5_Start.unity.meta
+    - Assets/Scenes/BehindMountainDoor.unity
+    - Assets/Scenes/BehindMountainDoor.unity.meta
+    - Assets/Scenes/Cutscenes.meta
+    - Assets/Scenes/Cutscenes/FriendlyMoleTimeline.playable
+    - Assets/Scenes/Cutscenes/FriendlyMoleTimeline.playable.meta
+    - Assets/Scenes/Cutscenes/Timeline.playable
+    - Assets/Scenes/Cutscenes/Timeline.playable.meta
+    - Assets/Scenes/Masters.meta
+    - Assets/Scenes/Masters/Master for Start Area.unity
+    - Assets/Scenes/Masters/Master for Start Area.unity.meta
+    - Assets/Scenes/Old.meta
+    - Assets/Scenes/Old/2.4.23 messing around.unity
+    - Assets/Scenes/Old/2.4.23 messing around.unity.meta
+    - Assets/Scenes/Old/Behind Mountain door.unity
+    - Assets/Scenes/Old/Behind Mountain door.unity.meta
+    - Assets/Scenes/Old/SampleScene.unity
+    - Assets/Scenes/Old/SampleScene.unity.meta
+    - Assets/Scenes/Start Area (1st).unity
+    - Assets/Scenes/Start Area (1st).unity.meta
+    - Assets/Scripts.meta
+    - Assets/Scripts/Bullet.cs
+    - Assets/Scripts/Bullet.cs.meta
+    - Assets/Scripts/Friendly Mole.cs
+    - Assets/Scripts/Friendly Mole.cs.meta
+    - Assets/Scripts/Friendly_Mole.cs
+    - Assets/Scripts/Friendly_Mole.cs.meta
+    - Assets/Scripts/LevelMove.cs
+    - Assets/Scripts/LevelMove.cs.meta
+    - Assets/Scripts/PlayerMovement.cs
+    - Assets/Scripts/PlayerMovement.cs.meta
+    - Assets/Scripts/Shooting.cs
+    - Assets/Scripts/Shooting.cs.meta
+    - Assets/Scripts/Zombie.cs
+    - Assets/Scripts/Zombie.cs.meta
+    - Assets/Tiny RPG Forest.meta
+    - Assets/Tiny RPG Forest/Artwork.meta
+    - Assets/Tiny RPG Forest/Artwork/Environment.meta
+    - Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects.meta
+    - Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/bush-tall.png
+    - Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/bush-tall.png.meta
+    - Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/bush.png
+    - Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/bush.png.meta
+    - Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/rock-monument.png
+    - Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/rock-monument.png.meta
+    - Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/rock.png
+    - Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/rock.png.meta
+    - Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/sign.png
+    - Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/sign.png.meta
+    - Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tree-dried.png
+    - Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tree-dried.png.meta
+    - Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tree-orange.png
+    - Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tree-orange.png.meta
+    - Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tree-pink.png
+    - Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tree-pink.png.meta
+    - Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/trunk.png
+    - Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/trunk.png.meta
+    - Assets/Tiny RPG Forest/Artwork/Environment/tileset-sliced.png
+    - Assets/Tiny RPG Forest/Artwork/Environment/tileset-sliced.png.meta
+    - Assets/Tiny RPG Forest/Artwork/Environment/tileset.png
+    - Assets/Tiny RPG Forest/Artwork/Environment/tileset.png.meta
+    - Assets/Tiny RPG Forest/Artwork/Environment/waterfall animation.meta
+    - Assets/Tiny RPG Forest/Artwork/Environment/waterfall animation/waterfall-1.png
+    - Assets/Tiny RPG Forest/Artwork/Environment/waterfall animation/waterfall-1.png.meta
+    - Assets/Tiny RPG Forest/Artwork/Environment/waterfall animation/waterfall-2.png
+    - Assets/Tiny RPG Forest/Artwork/Environment/waterfall animation/waterfall-2.png.meta
+    - Assets/Tiny RPG Forest/Artwork/Environment/waterfall animation/waterfall-3.png
+    - Assets/Tiny RPG Forest/Artwork/Environment/waterfall animation/waterfall-3.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/attack-weapon.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/attack-weapon/hero-attack-back.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/attack-weapon/hero-attack-back/hero-attack-back-weapon-1.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/attack-weapon/hero-attack-back/hero-attack-back-weapon-1.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/attack-weapon/hero-attack-back/hero-attack-back-weapon-2.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/attack-weapon/hero-attack-back/hero-attack-back-weapon-2.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/attack-weapon/hero-attack-back/hero-attack-back-weapon-3.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/attack-weapon/hero-attack-back/hero-attack-back-weapon-3.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/attack-weapon/hero-attack-front.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/attack-weapon/hero-attack-front/hero-attack-front-weapon-1.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/attack-weapon/hero-attack-front/hero-attack-front-weapon-1.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/attack-weapon/hero-attack-front/hero-attack-front-weapon-2.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/attack-weapon/hero-attack-front/hero-attack-front-weapon-2.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/attack-weapon/hero-attack-front/hero-attack-front-weapon-3.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/attack-weapon/hero-attack-front/hero-attack-front-weapon-3.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/attack-weapon/hero-attack-side.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/attack-weapon/hero-attack-side/hero-attack-side-weapon-1.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/attack-weapon/hero-attack-side/hero-attack-side-weapon-1.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/attack-weapon/hero-attack-side/hero-attack-side-weapon-2.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/attack-weapon/hero-attack-side/hero-attack-side-weapon-2.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/attack-weapon/hero-attack-side/hero-attack-side-weapon-3.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/attack-weapon/hero-attack-side/hero-attack-side-weapon-3.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/attack.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-back.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-back/hero-attack-back-1.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-back/hero-attack-back-1.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-back/hero-attack-back-2.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-back/hero-attack-back-2.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-back/hero-attack-back-3.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-back/hero-attack-back-3.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-front.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-front/hero-attack-front-1.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-front/hero-attack-front-1.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-front/hero-attack-front-2.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-front/hero-attack-front-2.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-front/hero-attack-front-3.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-front/hero-attack-front-3.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-side.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-side/hero-attack-side-1.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-side/hero-attack-side-1.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-side/hero-attack-side-2.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-side/hero-attack-side-2.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-side/hero-attack-side-3.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-side/hero-attack-side-3.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/idle.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/walk.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-back.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-back/hero-walk-back-1.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-back/hero-walk-back-1.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-back/hero-walk-back-2.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-back/hero-walk-back-2.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-back/hero-walk-back-3.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-back/hero-walk-back-3.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-back/hero-walk-back-4.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-back/hero-walk-back-4.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-back/hero-walk-back-5.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-back/hero-walk-back-5.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-back/hero-walk-back-6.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-back/hero-walk-back-6.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-front.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side/Hero-Walk-Left
+      1.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side/Hero-Walk-Left
+      1.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side/Hero-Walk-Left
+      3.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side/Hero-Walk-Left
+      3.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side/Hero-Walk-Left
+      4.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side/Hero-Walk-Left
+      4.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side/Hero-Walk-Left
+      5.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side/Hero-Walk-Left
+      5.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side/Hero-Walk-Left
+      6.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side/Hero-Walk-Left
+      6.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side/Hero-Walk-Left2.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side/Hero-Walk-Left2.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side/Hero-Walking-Right.anim
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side/Hero-Walking-Right.anim.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side/WalkLeft.anim
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side/WalkLeft.anim.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side/WalkUp.anim
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side/WalkUp.anim.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side/Walk_Left.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side/hero-walk-back-1.controller
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side/hero-walk-back-1.controller.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side/hero-walk-side-1.controller
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side/hero-walk-side-1.controller.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side/hero-walk-side-1.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side/hero-walk-side-1.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side/hero-walk-side-2.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side/hero-walk-side-2.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side/hero-walk-side-3.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side/hero-walk-side-3.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side/hero-walk-side-4.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side/hero-walk-side-4.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side/hero-walk-side-5.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side/hero-walk-side-5.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side/hero-walk-side-6.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side/hero-walk-side-6.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/misc.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/misc/arrow.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/misc/arrow.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/misc/coin.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/misc/coin/coin-1.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/misc/coin/coin-1.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/misc/coin/coin-2.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/misc/coin/coin-2.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/misc/coin/coin-3.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/misc/coin/coin-3.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/misc/coin/coin-4.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/misc/coin/coin-4.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/misc/enemy-death.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/misc/enemy-death/enemy-death-1.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/misc/enemy-death/enemy-death-1.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/misc/enemy-death/enemy-death-2.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/misc/enemy-death/enemy-death-2.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/misc/enemy-death/enemy-death-3.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/misc/enemy-death/enemy-death-3.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/misc/enemy-death/enemy-death-4.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/misc/enemy-death/enemy-death-4.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/misc/enemy-death/enemy-death-5.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/misc/enemy-death/enemy-death-5.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/misc/enemy-death/enemy-death-6.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/misc/enemy-death/enemy-death-6.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/misc/gem.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/misc/gem/gem-1.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/misc/gem/gem-1.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/misc/gem/gem-2.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/misc/gem/gem-2.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/misc/gem/gem-3.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/misc/gem/gem-3.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/misc/gem/gem-4.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/misc/gem/gem-4.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/misc/hearts.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/misc/hearts/hearts-1.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/misc/hearts/hearts-1.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/misc/hearts/hearts-2.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/misc/hearts/hearts-2.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/mole.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/mole/idle.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/mole/idle/Materials.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/mole/idle/Materials/mole-idle-front.mat
+    - Assets/Tiny RPG Forest/Artwork/sprites/mole/idle/Materials/mole-idle-front.mat.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/mole/walk.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/mole/walk/mole-walk-back.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/mole/walk/mole-walk-back/mole-walk-back-1.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/mole/walk/mole-walk-back/mole-walk-back-1.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/mole/walk/mole-walk-back/mole-walk-back-2.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/mole/walk/mole-walk-back/mole-walk-back-2.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/mole/walk/mole-walk-back/mole-walk-back-3.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/mole/walk/mole-walk-back/mole-walk-back-3.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/mole/walk/mole-walk-back/mole-walk-back-4.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/mole/walk/mole-walk-back/mole-walk-back-4.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/mole/walk/mole-walk-front.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/mole/walk/mole-walk-front/mole-walk-front-1.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/mole/walk/mole-walk-front/mole-walk-front-1.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/mole/walk/mole-walk-front/mole-walk-front-2.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/mole/walk/mole-walk-front/mole-walk-front-2.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/mole/walk/mole-walk-front/mole-walk-front-3.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/mole/walk/mole-walk-front/mole-walk-front-3.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/mole/walk/mole-walk-front/mole-walk-front-4.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/mole/walk/mole-walk-front/mole-walk-front-4.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/mole/walk/mole-walk-side.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/mole/walk/mole-walk-side/mole-walk-side-1.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/mole/walk/mole-walk-side/mole-walk-side-1.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/mole/walk/mole-walk-side/mole-walk-side-2.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/mole/walk/mole-walk-side/mole-walk-side-2.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/mole/walk/mole-walk-side/mole-walk-side-3.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/mole/walk/mole-walk-side/mole-walk-side-3.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/mole/walk/mole-walk-side/mole-walk-side-4.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/mole/walk/mole-walk-side/mole-walk-side-4.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/treant.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/treant/idle.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/treant/idle/treant-idle-back.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/treant/idle/treant-idle-back.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/treant/idle/treant-idle-front.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/treant/idle/treant-idle-front.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/treant/idle/treant-idle-side.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/treant/idle/treant-idle-side.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/treant/walk.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/treant/walk/treant-walk-back.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/treant/walk/treant-walk-back/treant-walk-back-1.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/treant/walk/treant-walk-back/treant-walk-back-1.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/treant/walk/treant-walk-back/treant-walk-back-2.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/treant/walk/treant-walk-back/treant-walk-back-2.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/treant/walk/treant-walk-back/treant-walk-back-3.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/treant/walk/treant-walk-back/treant-walk-back-3.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/treant/walk/treant-walk-back/treant-walk-back-4.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/treant/walk/treant-walk-back/treant-walk-back-4.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/treant/walk/treant-walk-front.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/treant/walk/treant-walk-front/treant-walk-front-1.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/treant/walk/treant-walk-front/treant-walk-front-1.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/treant/walk/treant-walk-front/treant-walk-front-2.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/treant/walk/treant-walk-front/treant-walk-front-2.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/treant/walk/treant-walk-front/treant-walk-front-3.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/treant/walk/treant-walk-front/treant-walk-front-3.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/treant/walk/treant-walk-front/treant-walk-front-4.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/treant/walk/treant-walk-front/treant-walk-front-4.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/treant/walk/treant-walk-side.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/treant/walk/treant-walk-side/treant-walk-side-1.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/treant/walk/treant-walk-side/treant-walk-side-1.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/treant/walk/treant-walk-side/treant-walk-side-2.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/treant/walk/treant-walk-side/treant-walk-side-2.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/treant/walk/treant-walk-side/treant-walk-side-3.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/treant/walk/treant-walk-side/treant-walk-side-3.png.meta
+    - Assets/Tiny RPG Forest/Artwork/sprites/treant/walk/treant-walk-side/treant-walk-side-4.png
+    - Assets/Tiny RPG Forest/Artwork/sprites/treant/walk/treant-walk-side/treant-walk-side-4.png.meta
+    - Assets/Tiny RPG Forest/Scenes.meta
+    - Assets/Tiny RPG Forest/Scenes/Demo.unity
+    - Assets/Tiny RPG Forest/Scenes/Demo.unity.meta
+    - Assets/Tiny RPG Forest/Scenes/DemoSettings.lighting
+    - Assets/Tiny RPG Forest/Scenes/DemoSettings.lighting.meta
+    - Packages/manifest.json
+    - Packages/packages-lock.json
+    - ProjectSettings/AudioManager.asset
+    - ProjectSettings/ClusterInputManager.asset
+    - ProjectSettings/DynamicsManager.asset
+    - ProjectSettings/EditorBuildSettings.asset
+    - ProjectSettings/EditorSettings.asset
+    - ProjectSettings/GraphicsSettings.asset
+    - ProjectSettings/InputManager.asset
+    - ProjectSettings/MemorySettings.asset
+    - ProjectSettings/NavMeshAreas.asset
+    - ProjectSettings/Physics2DSettings.asset
+    - ProjectSettings/PresetManager.asset
+    - ProjectSettings/ProjectSettings.asset
+    - ProjectSettings/ProjectVersion.txt
+    - ProjectSettings/QualitySettings.asset
+    - ProjectSettings/TagManager.asset
+    - ProjectSettings/TimeManager.asset
+    - ProjectSettings/UnityConnectSettings.asset
+    - ProjectSettings/VFXManager.asset
+    - ProjectSettings/VersionControlSettings.asset
+    - 
+    m_Values: 000000010100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  RevisionSummary: 
+  ChangesSearchValue: 
+  SelectedHistoryRevision: 
+  HistoryPageNumber: 0
+  TabIndex: 0
