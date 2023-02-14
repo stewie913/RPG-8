@@ -1,0 +1,243 @@
+Using pre-set license
+Built from '2021.2/staging' branch; Version is '2021.2.7f1 (6bd9e232123f) revision 7068130'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'en' Physical Memory: 16296 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.2.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/emble/Documents/RPG-8
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+1126
+Successfully changed project path to: C:/Users/emble/Documents/RPG-8
+C:/Users/emble/Documents/RPG-8
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 99.26 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.7f1 (6bd9e232123f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/emble/Documents/RPG-8/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f82)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   31.0.15.1694
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56444
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006474 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 96.89 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.604 seconds
+Domain Reload Profiling:
+	ReloadAssembly (604ms)
+		BeginReloadAssembly (69ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (459ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (98ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (287ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (97ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (134ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.027368 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\emble\Documents\RPG-8\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\emble\Documents\RPG-8\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 97.77 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.685 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1686ms)
+		BeginReloadAssembly (102ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (1490ms)
+			LoadAssemblies (132ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (229ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (1028ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (98ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (789ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.73 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4212 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 54 unused Assets / (228.3 KB). Loaded Objects now: 4679.
+Memory consumption went from 166.2 MB to 165.9 MB.
+Total: 4.585100 ms (FindLiveObjects: 0.922700 ms CreateObjectMapping: 0.698200 ms MarkObjects: 2.846600 ms  DeleteObjects: 0.116600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 973608.277434 seconds.
+  path: Assets/Graphics/Animations/Mole/Mole_Walk_Down.anim
+  artifactKey: Guid(b91f3fd56f05c5848865d0683687dc74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Animations/Mole/Mole_Walk_Down.anim using Guid(b91f3fd56f05c5848865d0683687dc74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14058c1d58c61fdd0c1dc39c08151151') in 0.035346 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Graphics/Animations
+  artifactKey: Guid(8b5f99cff52fb0044a8925155a762319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Animations using Guid(8b5f99cff52fb0044a8925155a762319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '462776a99b6b44de96050e2fa496c80e') in 0.003514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Graphics
+  artifactKey: Guid(d1a23ffbcc624174f82796df3f21ba02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics using Guid(d1a23ffbcc624174f82796df3f21ba02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '664a8380861acb7c1f92dbb215e06a8f') in 0.002877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Graphics/deathstoneofZombie.png
+  artifactKey: Guid(e45c43c568e0aec45a053902c7b6df24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/deathstoneofZombie.png using Guid(e45c43c568e0aec45a053902c7b6df24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3596e0cac22e349e34a89ddf2c24445c') in 0.165074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.178883 seconds.
+  path: Assets/Graphics/Animations/Mole/Mole_Walk_Left.anim
+  artifactKey: Guid(e64f0076f3b305f4494d7700c7003bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Animations/Mole/Mole_Walk_Left.anim using Guid(e64f0076f3b305f4494d7700c7003bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd8cee55fd6c3ec28e64418f3f399149') in 0.002821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.781281 seconds.
+  path: Assets/Graphics/Animations/Mole/Idle
+  artifactKey: Guid(eb1e403faf62b3443add4a822cc24b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Animations/Mole/Idle using Guid(eb1e403faf62b3443add4a822cc24b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '782831864828ff22c3434b510d4c082b') in 0.002185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.046978 seconds.
+  path: Assets/Graphics/Animations/Mole/Idle/mole-idle-back.png
+  artifactKey: Guid(c5ab53f1aba4f405b838d610445575ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Animations/Mole/Idle/mole-idle-back.png using Guid(c5ab53f1aba4f405b838d610445575ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02c354e567c6071876ef563a496b7b40') in 0.016183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Graphics/Animations/Mole/Idle/mole-idle-side.png
+  artifactKey: Guid(a52d43b4ff4dc4dfb99b796681f175fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Animations/Mole/Idle/mole-idle-side.png using Guid(a52d43b4ff4dc4dfb99b796681f175fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83b74ef09d6b9013db45309115a7ea29') in 0.014062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.702385 seconds.
+  path: Assets/Graphics/Animations/Mole/Idle/mole_idle_back.anim
+  artifactKey: Guid(536454b889504cb46956373b74647943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Animations/Mole/Idle/mole_idle_back.anim using Guid(536454b889504cb46956373b74647943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bb5e277c731c8f0afccdaa3fb9d649d') in 0.003349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.980492 seconds.
+  path: Assets/Graphics/Animations/Mole/Idle/mole_idle_front.anim
+  artifactKey: Guid(3ea1d31218d513d488a6e7f7c929dcb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Animations/Mole/Idle/mole_idle_front.anim using Guid(3ea1d31218d513d488a6e7f7c929dcb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bc61257efcb9e91026fe65a4171ef86') in 0.003241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.396048 seconds.
+  path: Assets/Graphics/Animations/Mole/Idle/mole_idle_Right.anim
+  artifactKey: Guid(f2ac34b12a86cbf4686bb43224204403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Animations/Mole/Idle/mole_idle_Right.anim using Guid(f2ac34b12a86cbf4686bb43224204403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24468e72207da78306c902ea1120b263') in 0.002444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.437803 seconds.
+  path: Assets/Graphics/Animations/Mole/Idle/mole_idle_Right 1.anim
+  artifactKey: Guid(5603bbc9ff81e4e46b13a2745e3ad3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Animations/Mole/Idle/mole_idle_Right 1.anim using Guid(5603bbc9ff81e4e46b13a2745e3ad3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '034c8ae093d7b5e3d8720a830e2b1347') in 0.003457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.334684 seconds.
+  path: Assets/Graphics/Animations/Mole/Idle/mole_idle_Left.anim
+  artifactKey: Guid(5603bbc9ff81e4e46b13a2745e3ad3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Animations/Mole/Idle/mole_idle_Left.anim using Guid(5603bbc9ff81e4e46b13a2745e3ad3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b41d5ef4624d20d4d334b10bfd19068f') in 0.002603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.844575 seconds.
+  path: Assets/Graphics/Animations/Mole/FriendlyMole.controller
+  artifactKey: Guid(c08ed1b7e277c014c892e7586bc0c73c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Animations/Mole/FriendlyMole.controller using Guid(c08ed1b7e277c014c892e7586bc0c73c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3b5210a6cd5f61c83352bf453f52d03') in 0.005921 seconds 
