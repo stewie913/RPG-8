@@ -36,14 +36,20 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
-     <Compile Include="Assets\Scripts\Bullet.cs" />
-     <Compile Include="Assets\Scripts\Zombie.cs" />
-     <Compile Include="Assets\Scripts\Friendly Mole.cs" />
-     <Compile Include="Assets\Scripts\LevelMove.cs" />
-     <Compile Include="Assets\Scripts\Shooting.cs" />
-     <Compile Include="Assets\Scripts\Friendly_Mole.cs" />
-     <Compile Include="Assets\Scripts\Evil_Tree.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\NPC&apos;s\Evil_Tree.cs" />
+     <Compile Include="Assets\Scripts\Player\Bullet.cs" />
+     <Compile Include="Assets\Scripts\Item.cs" />
+     <Compile Include="Assets\Scripts\NPC&apos;s\Zombie.cs" />
+     <Compile Include="Assets\Scripts\Old\Friendly Mole.cs" />
+     <Compile Include="Assets\Scripts\UI_Inventory.cs" />
+     <Compile Include="Assets\Scripts\Dev Stuff\LevelMove.cs" />
+     <Compile Include="Assets\Scripts\Player\Shooting.cs" />
+     <Compile Include="Assets\Scripts\PlayerInventory.cs" />
+     <Compile Include="Assets\Scripts\Dev Stuff\DamageableCharacter.cs" />
+     <Compile Include="Assets\Scripts\Inventory.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerInventory.cs" />
+     <Compile Include="Assets\Scripts\NPC&apos;s\Friendly_Mole.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.2.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
